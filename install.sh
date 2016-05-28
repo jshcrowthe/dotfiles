@@ -36,3 +36,6 @@ for configScript in */config.sh ; do
   echo "====================================================\r\n";
   ./$configScript
 done
+
+# Run OS X Config
+./osx/osx.sh
