@@ -1,0 +1,16 @@
+{
+  "color_scheme": "Packages/User/SublimeLinter/MonokaiEasyForRetina (SL).tmTheme",
+  "font_size": 12,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "predawn_findreplace_small": true,
+  "predawn_quick_panel_small": true,
+  "predawn_sidebar_small": true,
+  "predawn_tabs_small": true,
+  "tab_size": 2,
+  "theme": "predawn-DEV.sublime-theme",
+  "translate_tabs_to_spaces": true
+}

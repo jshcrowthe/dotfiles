@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<script>
+  var webComponentsSupported = ('registerElement' in document
+    && 'import' in document.createElement('link')
+    && 'content' in document.createElement('template'));
+
+  if (!webComponentsSupported) {
+    var wcPoly = document.createElement('script');
+    wcPoly.src = '${1:/bower_components/webcomponentsjs/webcomponents-lite.js}';
+    wcPoly.async = true;
+    document.head.appendChild(wcPoly);
+  }
+</script>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>wcp</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
