@@ -1,4 +1,5 @@
 tap "caskroom/cask"
+tap "caskroom/versions"
 
 brew 'coreutils'
 brew 'redis'
@@ -15,3 +16,4 @@ cask 'google-chrome'
 cask 'slack'
 cask 'iterm2'
 cask 'alfred'
+cask 'sublime-text3'
