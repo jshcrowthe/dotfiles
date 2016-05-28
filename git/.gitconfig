@@ -1,0 +1,16 @@
+[user]
+	name = Josh Crowther
+	email = jshcrowthe@gmail.com
+[alias]
+	co = checkout
+	cm = commit -m
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[url "https://"]
+	insteadOf = git://
+[pull]
+	rebase = true
+[core]
+	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w

@@ -1,0 +1,17 @@
+tap "caskroom/cask"
+
+brew 'coreutils'
+brew 'redis'
+brew 'git'
+brew 'siege'
+brew 'rethinkdb'
+
+cask 'dropbox'
+cask 'hyperdock'
+cask 'screenflow'
+cask '1password'
+cask 'firefox'
+cask 'google-chrome'
+cask 'slack'
+cask 'iterm2'
+cask 'alfred'
