@@ -7,6 +7,8 @@ brew 'git'
 brew 'siege'
 brew 'rethinkdb'
 
+cask_args appdir: '/Applications'
+
 cask 'dropbox'
 cask 'hyperdock'
 cask 'screenflow'

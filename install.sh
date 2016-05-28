@@ -36,5 +36,3 @@ for configScript in */config.sh ; do
   echo "====================================================\r\n";
   ./$configScript
 done
-
-source ~/.zshenv
