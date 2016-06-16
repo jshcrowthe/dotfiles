@@ -1,14 +1,15 @@
 tap "caskroom/cask"
 tap "caskroom/versions"
 
+# Core Brew Dependencies
 brew 'coreutils'
 brew 'redis'
 brew 'git'
 brew 'siege'
 brew 'rethinkdb'
 
+# Brew Cask Dependencies
 cask_args appdir: '/Applications'
-
 cask 'dropbox'
 cask 'hyperdock'
 cask 'screenflow'
@@ -22,3 +23,6 @@ cask 'sublime-text3'
 cask 'kaleidoscope'
 cask 'spotify'
 cask 'cloudup'
+
+# Mac App Store Dependencies
+mas 'Day One', id: 1055511498
