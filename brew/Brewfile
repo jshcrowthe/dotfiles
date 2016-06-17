@@ -26,3 +26,4 @@ cask 'cloudup'
 
 # Mac App Store Dependencies
 mas 'Day One', id: 1055511498
+mas 'iA Writer', id: 775737590
