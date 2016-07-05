@@ -24,4 +24,4 @@ ulimit -n 2048
 alias gitp="git pull --rebase origin"
 alias redis-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
 alias redis-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
-alias node-setup='npm i -g gh yo GoogleChrome/lighthouse jspm firebase generator-polymer polyserve gulpjs/gulp#4.0 gulpjs/gulp-cli#4.0 eslint polylint web-component-tester serve foreman bower node-debug istanbul thedeeno/web-component-tester-istanbul'
+alias node-setup='npm i -g yo GoogleChrome/lighthouse jspm firebase generator-polymer polyserve gulpjs/gulp#4.0 gulpjs/gulp-cli#4.0 eslint polylint web-component-tester serve foreman bower node-debug istanbul thedeeno/web-component-tester-istanbul'
