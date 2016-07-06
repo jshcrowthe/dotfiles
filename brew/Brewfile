@@ -24,6 +24,7 @@ cask 'sublime-text3'
 cask 'kaleidoscope'
 cask 'spotify'
 cask 'cloudup'
+cask 'atom'
 
 # Mac App Store Dependencies
 mas 'Day One', id: 1055511498
