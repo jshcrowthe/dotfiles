@@ -2,10 +2,12 @@
 	name = Josh Crowther
 	email = jshcrowthe@gmail.com
 [alias]
+	ci = ci-status
 	cm = commit -m
 	co = checkout
 	dt = difftool
 	mt = mergetool
+	pr = pull-request
 	undo = reset HEAD~1
 [credential]
 	helper = osxkeychain
@@ -30,3 +32,5 @@
 	tool = Kaleidoscope
 [core]
 	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w
+[hub]
+	protocol = https
