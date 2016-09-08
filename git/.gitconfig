@@ -9,7 +9,7 @@
 	mt = mergetool
 	pr = pull-request
 	undo = reset HEAD~1
-	log = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	log = log --pretty=format:'%Cred%h %Cgreen(%cr)%Creset -%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset'
 [credential]
 	helper = osxkeychain
 [push]
