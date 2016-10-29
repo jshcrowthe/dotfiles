@@ -34,6 +34,8 @@ for configScript in */config.sh ; do
   echo "\r\n====================================================";
   echo "=============== Running $configScript ==============";
   echo "====================================================\r\n";
+
+  echo "Executing $configScript\r\n";
   ./$configScript
 done
 

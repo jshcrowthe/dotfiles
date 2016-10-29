@@ -1,0 +1,29 @@
+{
+	"Polymer Conditional Template": {
+		"prefix": "dom-if",
+		"body": [
+			"<template is='dom-if' if='[[$1]]'>",
+			"  $2",
+			"</template>"
+		],
+		"description": "A Polymer Conditionally Binding Template"
+	},
+	"Polymer Repeated Template": {
+		"prefix": "dom-repeat",
+		"body": [
+			"<template is='dom-repeat' items='[[$1]]'>",
+			"  $2",
+			"</template>"
+		],
+		"description": "A Polymer Repeated Template"
+	},
+	"Polymer Binding Template": {
+		"prefix": "dom-bind",
+		"body": [
+			"<template is='dom-bind'>",
+			"  $1",
+			"</template>"
+		],
+		"description": "A Polymer Auto-Binding Template"
+	}
+}
