@@ -6,7 +6,7 @@ ZSH_THEME="agnoster"
 
 plugins=(git sublime heroku)
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.bin:$HOME/.yarn-config/global/node_modules/.bin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -24,5 +24,5 @@ ulimit -n 2048
 alias gitp="git pull --rebase origin"
 alias redis-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
 alias redis-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
-alias node-setup='npm i -g yo GoogleChrome/lighthouse jspm firebase generator-polymer polyserve gulpjs/gulp#4.0 eslint polylint web-component-tester serve foreman bower node-debug istanbul thedeeno/web-component-tester-istanbul'
+alias node-setup='npm i -g yarn && yarn global add yo jspm firebase-tools generator-polymer gulpjs/gulp#4.0 eslint polylint web-component-tester serve foreman bower polymer-cli'
 alias git=hub

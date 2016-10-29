@@ -39,3 +39,6 @@ done
 
 # Run OS X Config
 ./osx/osx.sh
+
+# Configure ZSH Shell
+./zsh/zsh.sh
