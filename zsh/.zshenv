@@ -4,7 +4,7 @@ export ZSH=/Users/jshcrowthe/.oh-my-zsh
 # Set name of the theme to load.
 ZSH_THEME="agnoster"
 
-plugins=(git sublime heroku)
+plugins=(git heroku)
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.bin:$HOME/.yarn-config/global/node_modules/.bin"
 
@@ -15,7 +15,6 @@ source $ZSH/oh-my-zsh.sh
 # Add NVM to PATH
 export NVM_DIR="/Users/jshcrowthe/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" 
-
 
 # Setting Max Open File Limit
 ulimit -n 2048
