@@ -25,5 +25,12 @@
 			"</template>"
 		],
 		"description": "A Polymer Auto-Binding Template"
+	},
+	"HTML Import": {
+		"prefix": "hi",
+		"body": [
+			"<link rel='import' href='${0:bower_components}/${1}/${1}.html'"
+		],
+		"description": "An HTML import stub"
 	}
 }
