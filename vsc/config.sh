@@ -7,7 +7,7 @@ packagesPath=`realpath .`
 configPath=~/Library/Application\ Support/Code/User/snippets/
 pushd "$configPath" > /dev/null;
 
-cp -r $packagesPath/*.json .
+ln -s $packagesPath/*.json .
 
 popd
 
