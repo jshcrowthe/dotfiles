@@ -1,5 +1,4 @@
 tap "caskroom/cask"
-tap "caskroom/versions"
 
 # Core Brew Dependencies
 brew 'coreutils'
