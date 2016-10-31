@@ -3,5 +3,6 @@
     "editor.fontSize": 12,
     "editor.tabSize": 2,
     "editor.wordWrap": true,
+    "editor.quickSuggestionsDelay": 5,
     "window.reopenFolders": "none" 
 }
