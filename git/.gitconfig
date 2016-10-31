@@ -31,7 +31,5 @@
 	prompt = false
 [diff]
 	tool = Kaleidoscope
-[core]
-	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w
 [hub]
 	protocol = https
