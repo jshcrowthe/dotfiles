@@ -4,5 +4,6 @@
     "editor.tabSize": 2,
     "editor.wordWrap": true,
     "editor.quickSuggestionsDelay": 5,
+    "editor.tabCompletion": true,
     "window.reopenFolders": "none" 
 }
