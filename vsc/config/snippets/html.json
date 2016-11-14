@@ -32,5 +32,16 @@
 			"<link rel='import' href='${0:bower_components}/${1}/${1}.html'>"
 		],
 		"description": "An HTML import stub"
-	}
+	},
+	"Simple HTML Body": {
+		"prefix": "ph",
+		"body": "\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta charset=\"utf-8\">\n\n\t<title>${1}</title>\n\t<meta name=\"description\" content=\"${2}\">\n\n\t<!-- Mobile -->\n\t<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes\">\n\n\t<!-- Chrome / Android -->\n\t<meta name=\"mobile-web-app-capable\" content=\"yes\">\n\t<meta name=\"theme-color\" content=\"black\">\n\t<link rel=\"icon\" href=\"icon.png\">\n\n\t<!-- Safari / iOS -->\n\t<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n\t<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n\t<link rel=\"apple-touch-icon-precomposed\" href=\"apple-touch-icon.png\">\n\n\t<!-- Web Components -->\n\t<script src=\"bower_components/webcomponentsjs/webcomponents-lite.js\"></script>\n</head>\n<body unresolved>\n\t$0\n</body>\n</html>\n",
+		"description": "polymer html boilerplate"
+	},
+	"Simple Polymer Element Boilerplate": {
+		"prefix": "pe",
+		"body": "\n<!--\nA comment describing this element\n\nExample:\n\n    <my-elem></my-elem>\n\nExample:\n\n    <my-elem>\n      <h2>Hello my-elem</h2>\n    </my-elem>\n\n@demo demo/index.html\n-->\n\n<dom-module id=\"$1\">\n\t<template>\n\t\t<style>\n\t\t\t:host {\n\t\t\t\tdisplay: block;\n\t\t\t}\n\t\t</style>\n\t\t$4\n\t</template>\n\t<script>\n\t\tPolymer({\n\t\t\tis: '$1'\n\t\t});\n\t</script>\n</dom-module>\n",
+		"description": "polymer element",
+		"scope": "text.html"
+	},
 }
