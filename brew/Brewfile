@@ -23,6 +23,8 @@ cask 'kaleidoscope'
 cask 'spotify'
 cask 'cloudup'
 cask 'visual-studio-code'
+cask 'hyper'
+cask 'java'
 
 # Mac App Store Dependencies
 mas 'Day One', id: 1055511498
