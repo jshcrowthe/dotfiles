@@ -8,5 +8,11 @@
     "window.reopenFolders": "none",
     "files.associations": {
       "*.zsh-theme": "shellscript"
+    },
+    "window.zoomLevel": 0,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/components":true
     }
-  }
+}
