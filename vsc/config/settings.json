@@ -7,7 +7,8 @@
     "editor.tabCompletion": true,
     "window.reopenFolders": "none",
     "files.associations": {
-      "*.zsh-theme": "shellscript"
+      "*.zsh-theme":"shellscript",
+      "Cakefile":"coffeescript"
     },
     "window.zoomLevel": 0,
     "search.exclude": {

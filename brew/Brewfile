@@ -25,6 +25,7 @@ cask 'cloudup'
 cask 'visual-studio-code'
 cask 'hyper'
 cask 'java'
+cask 'screenhero'
 
 # Mac App Store Dependencies
 mas 'Day One', id: 1055511498
