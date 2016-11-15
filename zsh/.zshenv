@@ -24,4 +24,4 @@ alias gitp="git pull --rebase origin"
 alias redis-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
 alias redis-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
 alias node-setup='npm i -g yarn gulpjs/gulp#4.0 yo jspm firebase-tools generator-polymer eslint polylint web-component-tester serve foreman bower polymer-cli'
-alias git=hub
+eval "$(hub alias -s)"
