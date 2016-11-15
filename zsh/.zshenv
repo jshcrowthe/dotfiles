@@ -1,19 +1,16 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/jshcrowthe/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 ZSH_THEME="agnoster"
 
-plugins=(git heroku)
-
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.bin:$HOME/.yarn-config/global/node_modules/.bin"
 
+# Source Oh My ZSH
 source $ZSH/oh-my-zsh.sh
 
-[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
-
 # Add NVM to PATH
-export NVM_DIR="/Users/jshcrowthe/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" 
 
 # Setting Max Open File Limit
