@@ -26,3 +26,5 @@ find $SRC -type f |while read PATHNAME; do
 done
 
 popd
+
+code --install-extension PKief.material-icon-theme --install-extension formulahendry.code-runner --install-extension ms-vscode.sublime-keybindings
