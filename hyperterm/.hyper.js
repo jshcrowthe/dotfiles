@@ -22,7 +22,15 @@ module.exports = {
     borderColor: '#333',
 
     // custom css to embed in the main window
-    css: '',
+    css: `
+      .editor .selection .region {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+      .editor.is-focused  .selection .region {
+        background-color: yellow;
+      }
+    `,
 
     // custom css to embed in the terminal window
     termCSS: '',
