@@ -1,32 +1,22 @@
 tap "caskroom/cask"
 
 # Core Brew Dependencies
-brew 'coreutils'
-brew 'redis'
 brew 'git'
-brew 'siege'
-brew 'rethinkdb'
 brew 'hub'
-brew 'jq'
 
 # Brew Cask Dependencies
 cask_args appdir: '/Applications'
 cask 'dropbox'
 cask 'hyperdock'
-cask 'screenflow'
 cask '1password'
 cask 'firefox'
 cask 'google-chrome'
-cask 'slack'
 cask 'alfred'
 cask 'kaleidoscope'
 cask 'spotify'
 cask 'cloudup'
 cask 'visual-studio-code'
 cask 'hyper'
-cask 'java'
-cask 'screenhero'
 
 # Mac App Store Dependencies
 mas 'Day One', id: 1055511498
-mas 'iA Writer', id: 775737590
