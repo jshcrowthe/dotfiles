@@ -1,0 +1,32 @@
+[user]
+	name = Josh Crowther
+	email = jshcrowthe@gmail.com
+[alias]
+	ci = ci-status
+	cm = commit -m
+	co = checkout
+	dt = difftool
+	mt = mergetool
+	pr = pull-request
+	undo = reset HEAD~1
+	lgg = log --pretty=format:'%Cred%h %Cgreen(%cr)%Creset -%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset'
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[url "https://"]
+	insteadOf = git://
+[pull]
+	rebase = true
+[hub]
+	protocol = https
+[code]
+    editor = code --wait
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
