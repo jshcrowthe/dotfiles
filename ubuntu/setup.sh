@@ -20,12 +20,13 @@ sudo apt update
 sudo apt upgrade
 
 # Install Packages
-sudo apt install \
+sudo apt -y install \
     code \
     curl \
     ffmpeg \
     git \
     google-chrome-stable \
+    nautilus-dropbox \
     obs-studio \
     terminator \
     vim \
