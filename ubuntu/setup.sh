@@ -33,6 +33,10 @@ sudo apt install \
 
 sudo apt install --no-install-recommends yarn
 
+# Set Terminator as default terminal
+gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
+gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
+
 # Install oh-my-zsh (do this in a backround shell to prevent the current shell execution from exiting)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" & 
 wait
