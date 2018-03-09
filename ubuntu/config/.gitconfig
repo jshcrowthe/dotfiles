@@ -11,7 +11,7 @@
 	undo = reset HEAD~1
 	lg = log --pretty=format:'%Cred%h %Cgreen(%cr)%Creset -%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset'
 [credential]
-	helper = osxkeychain
+	helper = store
 [push]
 	default = simple
 [url "https://"]
