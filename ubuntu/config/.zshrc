@@ -73,7 +73,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 
 # Path Variable
-export PATH=$HOME/.bin:$PATH
+export PATH=$HOME/.bin:$HOME/go/bin:$PATH
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -92,3 +92,6 @@ export PATH=$HOME/.bin:$PATH
 
 alias gitp="git pull --rebase origin"
 alias node-setup='npm i -g yo firebase-tools eslint serve polymer-cli preact-cli flow-bin mocha typescript @babel/core @babel/cli'
+
+# Alias Github Hub to `git`
+eval "$(hub alias -s)"
