@@ -62,6 +62,7 @@ go get github.com/github/hub
 mkdir -p $HOME/Repos
 mkdir -p $HOME/Sandbox
 mkdir -p $HOME/.bin
+mkdir -p $HOME/.config/terminator
 
 # Copy down the dotfiles repo
 git clone https://github.com/jshcrowthe/dotfiles $HOME/Repos/dotfiles
@@ -73,3 +74,7 @@ ln -s $HOME/Repos/dotfiles/ubuntu/config/.zshrc $HOME/.zshrc
 # Symlink the .gitconfig
 rm $HOME/.gitconfig
 ln -s $HOME/Repos/dotfiles/ubuntu/config/.gitconfig $HOME/.gitconfig
+
+# Symlink the Terminator config
+rm $HOME/.config/terminator/config
+ln -s $HOME/Repos/dotfiles/ubuntu/config/terminator_config $HOME/.config/terminator/config
