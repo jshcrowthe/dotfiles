@@ -26,7 +26,7 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
 
 # Update Existing Packages
-sudo apt upgrade
+sudo apt -y upgrade 
 
 # Install Packages
 sudo apt -y install \
