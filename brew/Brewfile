@@ -9,14 +9,8 @@ cask_args appdir: '/Applications'
 cask 'dropbox'
 cask 'hyperdock'
 cask '1password'
-cask 'firefox'
-cask 'google-chrome'
+cask 'brave-browser'
 cask 'alfred'
-cask 'kaleidoscope'
 cask 'spotify'
-cask 'cloudup'
 cask 'visual-studio-code'
 cask 'hyper'
-
-# Mac App Store Dependencies
-mas 'Day One', id: 1055511498

@@ -27,4 +27,4 @@ done
 
 popd
 
-code --install-extension PKief.material-icon-theme --install-extension formulahendry.code-runner --install-extension ms-vscode.sublime-keybindings --install-extension QassimFarid.ejs-language-support
+code --install-extension PKief.material-icon-theme --install-extension ms-vscode.sublime-keybindings
