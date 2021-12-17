@@ -1,4 +1,4 @@
-tap "caskroom/cask"
+tap "homebrew/cask"
 
 # Core Brew Dependencies
 brew 'git'
@@ -6,11 +6,9 @@ brew 'hub'
 
 # Brew Cask Dependencies
 cask_args appdir: '/Applications'
-cask 'dropbox'
-cask 'hyperdock'
+cask 'rectangle'
 cask '1password'
 cask 'brave-browser'
 cask 'alfred'
-cask 'spotify'
 cask 'visual-studio-code'
 cask 'hyper'
