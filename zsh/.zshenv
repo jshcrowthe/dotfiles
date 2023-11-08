@@ -16,9 +16,23 @@ export NVM_DIR="$HOME/.nvm"
 # Setting Max Open File Limit
 ulimit -n 2048
 
-# My Alias'
-alias gitp="git pull --rebase origin"
-alias redis-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
-alias redis-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
-alias node-setup='npm i -g yarn gulpjs/gulp#4.0 yo jspm firebase-tools generator-polymer eslint polylint web-component-tester serve foreman bower polymer-cli'
-eval "$(hub alias -s)"
+# Homebrew
+eval $(/opt/homebrew/bin/brew shellenv)
+
+source ~/.config/op/plugins.sh
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/homebrew/Caskroom/miniforge/base/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
